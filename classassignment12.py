@@ -3,7 +3,7 @@ num = int(input("Please input your number: "))
 if num >= 80:
     print('A+')
 
-elif 79 >= num >= 75:
+elif num >=79 and num<=75:
     print("A")
 
 elif 74 >= num >= 70:
