@@ -1,12 +1,9 @@
-# python is case sensitive
+def square(y):
+    return y*y
 
-# interpreted language, multiple line error will be stopped in only one place;
-# two number types, integers and floating points
+for x in range(1, 11):
+    print(square(x))
+    
+add = lambda a,b : a + b
 
-# fruits = ['apple', 'orange', 'banana']
-
-# for x in fruits:
-#     print(x)
-x = range(1,20,2);
-
-print()
+print(add(5,6))
