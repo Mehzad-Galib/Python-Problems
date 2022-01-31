@@ -1,9 +1,5 @@
-def square(y):
-    return y*y
+fs = open('test.txt', 'r');
 
-for x in range(1, 11):
-    print(square(x))
-    
-add = lambda a,b : a + b
+content = fs.read();
 
-print(add(5,6))
+print(content);
