@@ -1,5 +1,11 @@
-fs = open('test.txt', 'r');
+import numpy as np
 
-content = fs.read();
+# print(np.arange(0, 2, 0.4))
 
-print(content);
+x = np.array([1,2,3])
+
+z = np.copy(x)
+
+# print(z)
+
+print(np.random.randint((2,3)))
